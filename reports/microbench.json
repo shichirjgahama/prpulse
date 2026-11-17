@@ -1,0 +1,21 @@
+{
+  "blob_read": {
+    "batch_ms": 72,
+    "files": 200,
+    "sequential_ms": 10303,
+    "speedup": 143.1
+  },
+  "limit": 200,
+  "parse_cache": {
+    "bytes": 859645,
+    "cold_parse_ms": 367,
+    "files": 179,
+    "speedup": 317.8,
+    "warm_lookup_us": 6.451,
+    "warm_pass_ms": 1.155
+  },
+  "python_files_measured": 200,
+  "python_files_total": 246,
+  "repo": "C:\\Users\\sound\\projectpulse\\samples\\django-extensions",
+  "repo_id": 2
+}

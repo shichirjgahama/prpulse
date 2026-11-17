@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "projectpulse"
+version = "1.0.0"
+description = "ProjectPulse - локальный цифровой двойник программного проекта по Git-репозиторию"
+requires-python = ">=3.11"
+authors = [{ name = "Roman Egorov" }]
+dependencies = []
+
+[project.optional-dependencies]
+pdf = ["reportlab>=4.0"]
+test = ["hypothesis>=6.0"]
+
+[project.scripts]
+projectpulse = "projectpulse.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+projectpulse = ["storage/schema.sql"]

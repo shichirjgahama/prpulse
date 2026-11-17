@@ -1,0 +1,71 @@
+{
+  "a": {
+    "health": 65.3,
+    "id": 1,
+    "name": "pluggy",
+    "run_id": 21,
+    "score_label": "Умеренное состояние"
+  },
+  "b": {
+    "health": 41.6,
+    "id": 2,
+    "name": "django-extensions",
+    "run_id": 22,
+    "score_label": "Повышенный риск"
+  },
+  "indicators": [
+    {
+      "a": 65.3,
+      "b": 41.6,
+      "better": "a",
+      "delta": 23.699999999999996,
+      "higher_better": true,
+      "key": "health",
+      "title": "Индекс здоровья",
+      "unit": "баллы 0..100"
+    },
+    {
+      "a": 1.413554633471646,
+      "b": 2.7204213938411668,
+      "better": "a",
+      "delta": -1.3068667603695208,
+      "higher_better": false,
+      "key": "complexity",
+      "title": "Средняя сложность функции",
+      "unit": "баллы"
+    },
+    {
+      "a": 22.62295081967213,
+      "b": 0.09747348721147849,
+      "better": "b",
+      "delta": 22.525477332460653,
+      "higher_better": false,
+      "key": "churn",
+      "title": "Плотность churn за 90 дней",
+      "unit": "строк на 100 LOC"
+    },
+    {
+      "a": 13.529411764705882,
+      "b": 24.645205953617168,
+      "better": "a",
+      "delta": -11.115794188911286,
+      "higher_better": false,
+      "key": "bugfix",
+      "title": "Доля багфикс-коммитов",
+      "unit": "%"
+    },
+    {
+      "a": 2.0,
+      "b": 2.0,
+      "better": "tie",
+      "delta": 0.0,
+      "higher_better": true,
+      "key": "bus_factor",
+      "title": "Bus factor проекта",
+      "unit": "авторы"
+    }
+  ],
+  "verdict": "Лучше выглядит pluggy: побед 3 из 5",
+  "wins_a": 3,
+  "wins_b": 1
+}

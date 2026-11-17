@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "description": "Демонстрационная пара репозиториев ProjectPulse. Коммиты зафиксированы для воспроизводимости метрик.",
+  "repositories": [
+    {
+      "name": "pluggy",
+      "role": "healthy",
+      "url": "https://github.com/pytest-dev/pluggy.git",
+      "path": "samples/pluggy",
+      "commit": "46a80723004b2f6c3a57c387c3a1d50e17fb8c25",
+      "license": "MIT",
+      "note": "Небольшой зрелый проект с низкой связностью, стабильным API и распределённым владением."
+    },
+    {
+      "name": "django-extensions",
+      "role": "problematic",
+      "url": "https://github.com/django-extensions/django-extensions.git",
+      "path": "samples/django-extensions",
+      "commit": "9bdf31556675e795c7c7c4f033f194dc075d5919",
+      "license": "MIT",
+      "note": "Крупный проект с длинной историей, высоким churn и заметной концентрацией изменений."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-11-17T11:11:28",
+  "repositories": [
+    {
+      "authors": 78,
+      "commits": 850,
+      "files": 36,
+      "findings": 4,
+      "health": 65.3,
+      "health_label": "Умеренное состояние",
+      "name": "pluggy",
+      "repo_id": 1,
+      "role": "healthy",
+      "run_id": 21,
+      "snapshots": 9
+    },
+    {
+      "authors": 621,
+      "commits": 2889,
+      "files": 246,
+      "findings": 12,
+      "health": 41.6,
+      "health_label": "Повышенный риск",
+      "name": "django-extensions",
+      "repo_id": 2,
+      "role": "problematic",
+      "run_id": 22,
+      "snapshots": 9
+    }
+  ]
+}
