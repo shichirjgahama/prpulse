@@ -73,8 +73,7 @@ Property-тесты дополняют примеры, а не заменяют 
 ## 5. Запуск
 
 ```powershell
-cd C:\Users\sound\projectpulse
-$env:PYTHONPATH = "C:\Users\sound\projectpulse\src;C:\Users\sound\projectpulse"
+$env:PYTHONPATH = "src;."
 python -m unittest discover -s tests -v
 ```
 

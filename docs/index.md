@@ -23,7 +23,6 @@ ProjectPulse - локальная система цифрового двойни
 Требования: Python 3.11 или новее, Git в PATH. Для PDF нужен reportlab, для property-тестов - hypothesis. Обе зависимости необязательны для основного сценария.
 
 ```powershell
-cd C:\Users\sound\projectpulse
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -e ".[pdf,test]"
@@ -47,14 +46,14 @@ python -m projectpulse research --healthy samples\pluggy --problematic samples\d
 Запуск графического интерфейса:
 
 ```powershell
-$env:PROJECTPULSE_HOME = "C:\Users\sound\projectpulse\demo_home"
+$env:PROJECTPULSE_HOME = ".\demo_home"
 python -m projectpulse gui
 ```
 
 Полный демонстрационный прогон, включая отчёты, сравнение, исследование и замеры:
 
 ```powershell
-$env:PYTHONPATH = "C:\Users\sound\projectpulse\src;C:\Users\sound\projectpulse"
+$env:PYTHONPATH = "src;."
 python scripts\run_all.py --reindex --bench --tests
 ```
 

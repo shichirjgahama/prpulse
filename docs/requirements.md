@@ -99,7 +99,7 @@
 ## 8. Быстрая проверка
 
 ```powershell
-$env:PYTHONPATH = "C:\Users\sound\projectpulse\src;C:\Users\sound\projectpulse"
+$env:PYTHONPATH = "src;."
 python -m unittest discover -s tests
 python scripts\run_all.py --reindex --bench
 ```

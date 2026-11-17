@@ -20,15 +20,13 @@
 ### Вариант без установки
 
 ```powershell
-cd C:\Users\sound\projectpulse
-$env:PYTHONPATH = "C:\Users\sound\projectpulse\src;C:\Users\sound\projectpulse"
+$env:PYTHONPATH = "src;."
 python -m projectpulse --version
 ```
 
 ### Вариант с виртуальным окружением
 
 ```powershell
-cd C:\Users\sound\projectpulse
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
@@ -254,7 +252,7 @@ python -m projectpulse plugins
 ## 11. Полный демонстрационный прогон
 
 ```powershell
-$env:PYTHONPATH = "C:\Users\sound\projectpulse\src;C:\Users\sound\projectpulse"
+$env:PYTHONPATH = "src;."
 python scripts\prepare_samples.py
 python scripts\run_all.py --reindex --bench --tests
 ```

@@ -121,7 +121,7 @@ SHA-объекты подаются в stdin, ответ читается из s
 ## 6. Как воспроизвести
 
 ```powershell
-$env:PYTHONPATH = "C:\Users\sound\projectpulse\src;C:\Users\sound\projectpulse"
+$env:PYTHONPATH = "src;."
 
 python scripts\profile_index.py --repo samples\django-extensions --mode full
 python scripts\microbench.py --repo samples\django-extensions --limit 200
